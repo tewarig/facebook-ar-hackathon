@@ -3,48 +3,36 @@
 
 This project has been created during Facebook AR Hackathon
 <a href="https://www.youtube.com/watch?v=58oHAD26RnY"> Watch Presentation </a> 
-
-# SparkAR
-
-This project is made for the facebook AR Hackathon, that took place on the Devpost platform.
-
 ## Inspiration
+I've spent a lot of time chatting with one another and what do we use to express our feeling? emoji...😃 
+yes, we decided to make a filter with emoji and anime 😝 .  
 
-As we have to make a world filter, so it is kinda cool to be in another place. So, I thought to work on this.
 
 ## What it does
+So, you can either open the rear camera or front camera.. the first thing you would see is a custom instruction saying smile. as soon as you smile😃 you will see some anime blush and lots of emoji's floating in the air. 😎
+well only smile.... you can also share various emotions with this filter... like your anger 😠.. when you will make an angry face it will show you angry emoji with angry anime characteristics on your face. also, you can make a surprising face it will show a floating surprised emoji with characteristics of surprised anime on your face.😯 all these faces have a different background attached to it.
+## How we built it
+Firstly we made a small storyboard regarding the filter, then we collected assets .. collecting emoji's png and using them in particle emitter was quite easy, then we searched other useful assets for the project like background and went through many anime, posters to decide what should we add to face. then In spark ar, we used a face tracker to detect various faces like a smile, surprised face,  to add various background and face assets to the user's face. 
 
-As the filter loads, first its checks if front camera is opened or back. If front camera is opened, it asks to switch the camera through custom instructions and after changing to back camera, it asks to move the device to have a look. Then the environment or surrounding of the user changes. It have UI Picker. So there are two options: One for day-time and another for night time. During night, snowfall also takes place using particle emitter. There is a slow background music to match the theme.
 
-## How I built it
+## Challenges we ran into
+well, it was quite difficult to use the patch editor, we have used too many things in the project the patch editor have become quite messy.
+Also detecting an angry face was not easy, so we came up with an easy idea of using eyebrows lowered as a sign of having an angry face.
+## Accomplishments that we're proud of
+What we’re most proud of is the fact that we worked together as a team so effectively despite being separated due to COVID. This was really the first time anyone of us had worked collaboratively on a big project like this. Learning to use GitHub to make sure all of our additions merged smoothly was a huge learning curve, but we stuck it out and we were all able to flex our developer's muscles.
 
-First, the 3D model was prepared. The sky is made of sphere. while the ground is made from the plane in blender along with rest of the things. Then the tectures were applied. And in SparkAR, placed the object in world environment along with particle emitter. Emitter was given a texture of snow to give a effect of snowfall. A speaker was added, which plays the background music. I used script for the UI Picker and the variable from the script is used in the patches to change the textures. Custom Instructions are implemented using patches.
+We also worked hard doing a detailed reading of the documentation, as there are few Spark AR Studio tutorials to be found online due to it being such a new technology, especially regarding advanced scripting. 
 
-## Challenges I ran into
 
-Firstly, The 3D object was not so easy to work on, compression took most of the time. Then, I was planning to use DeviceMotionModule to make movement with the device moment but no result was obtained.So, then I switched to UI Picker, to give a good world AR effect. As my system is old, so all the working took so long to complete.
+## What we learned
 
-## Accomplishments that I'm proud of
+First and foremost we learned how to use SparkAR altogether. This was our first time using such a tool. We learned all about patch editor. But most of all we learned that teamwork really does make the dream work. Or, maybe it was just tremendous amounts of caffeine.
 
-The filter which I made is what I am proud of. Because they were all new concepts eg UI Picker, DeviceModule, Scripting, 3D-models, exporting, compression. But after the effect was completed, it was a satisfactory feeling.
+## What's next for Enime
+Well, we have planned to make this filter even bigger, we would be adding support for more facial expression, so more people can express them self as anime and emojis. 
 
-## What I learned
-
-The things I learnd are: Blender SparkAR - UI Picker Sound Speaker texture Compression Filter uploading Using Patches Working with Scripting and many more things.
-
-## What's next for World filter
-
-I will be working on this filter, if some-how I get a way to move a 3D object based on device motion. And creating somewhat more enhanced scenery.
-
-## Built With
-
-Blender
-
-SparkAR
 
 ## Try it out:
-Instagram: https://www.instagram.com/a/r/?effect_id=573274943258408
+Instagram:https://www.instagram.com/ar/1960572834074067/?ch=MDNkZGZmZjc1ZmZlN2RjNjkyNTFhNGE1ZGUyNThhZjg%3D
 
-Link to the Hackathon: https://fbar2.devpost.com/
 
-Link to my submission: https://devpost.com/software/world-filter
