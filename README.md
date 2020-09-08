@@ -33,6 +33,5 @@ Well, we have planned to make this filter even bigger, we would be adding suppor
 
 
 ## Try it out:
-Instagram:https://www.instagram.com/ar/1960572834074067/?ch=MDNkZGZmZjc1ZmZlN2RjNjkyNTFhNGE1ZGUyNThhZjg%3D
-
+<a href="https://www.instagram.com/ar/1027876720976291/">Instagram </a>
 
